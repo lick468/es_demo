@@ -28,7 +28,7 @@ public class StudentController {
         student.setDesc("这是测试" + id + "的个人简介，这里是描述的文字");
         student.setId(id);
         studentService.addStudent(student, String.valueOf(student.getId()));
-        return "asdasdasd";
+        return "success";
     }
 
 
